@@ -1,0 +1,32 @@
+<br>
+<br>
+<div class="container-sm">
+    <h1 class="fw-lighter">PLAZA DE MERCADO</h1>
+    <p>ultima compra: {{mensaje}}</p>
+    <br>
+    <form action="/buy-products" method="post">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div>
+                    <p class="fs-3 fw-light">Ingredientes disponibles para comprar</p>
+                    <select name="producto" id="producto" class="form-select" size="10" multiple
+                        aria-label="multiple select example">
+                        <option value="tomato">Tomato</option>
+                        <option value="lemon">Lemon</option>
+                        <option value="potato">Potato</option>
+                        <option value="rice">Rice</option>
+                        <option value="ketchup">Ketchup</option>
+                        <option value="lettuce">Lettuce</option>
+                        <option value="onion">Onion</option>
+                        <option value="cheese">Cheese</option>
+                        <option value="meat">Meat</option>
+                        <option value="chicken">Chicken</option>
+                    </select>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-outline-success">Comprar</button>
+    </form>
+</div>

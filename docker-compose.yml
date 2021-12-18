@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+    web:
+        container_name: freefoodapp
+        restart: always
+        build: .
+        ports:
+          - "3000:3000"
+        links:
+          - mongodb
+    mongodb: 
+        container_name: fooddatabase
+        image: mongo
+        ports:
+          - "27018:27017"

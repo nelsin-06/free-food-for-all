@@ -1,0 +1,25 @@
+<br>
+<br>
+<div class="container-sm">
+<h1 class="fw-lighter">Lista de mis recetas</h1>
+<table class="table border">
+    <thead>
+        <tr class="table-light">
+            <th>Nombre receta</th>
+            <th colspan="100">Ingredientes</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each prueba}}
+        <tr>
+        <td><strong>receta {{math @index "+" 1}}</strong></td>
+            {{#each this}}
+                {{#each this}}
+            <td>{{this.cantidad}} {{this.ingrediente}}</td>
+                {{/each}}
+            {{/each}}
+        {{/each}}
+        </tr>
+    </tbody>
+</table>
+</div>

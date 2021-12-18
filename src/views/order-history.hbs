@@ -1,0 +1,16 @@
+<div class="container-sm">
+    <br>
+    <br>
+    <h1 class="fw-lighter">Historial de ordenes preparadas</h1>
+    <div class="card" style="width: 50rem;">
+        <div class="card-body">
+            <br>
+            {{#each lista}}
+            <p><strong>Nombre:</strong> {{this.receta.nombre}} <strong>Ingredientes y cantidad:</strong>{{#each
+                this.receta.ingredients}} {{this.ingrediente}} {{this.cantidad}} {{/each}}</p>
+            {{/each}}
+        </div>
+    </div>
+    <br>
+    <br>
+</div>
