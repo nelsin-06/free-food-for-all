@@ -33,10 +33,10 @@ Tambien podremos acceder directamente sin instalar o descargar nada desde la web
 - express-handlebars
 - express-session
 - node-fetch
-- docker
+- docker para Node y Mongodb
+
 ## Contruido por 👨‍💻👨‍🍳
 
 **Nelson Stiven Gallego Garcia**
 **nelsoncg0611@gmail.com**
 
-**https://www.linkedin.com/in/nelson-gallego-tec-dev**
