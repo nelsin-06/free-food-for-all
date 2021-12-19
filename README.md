@@ -1,6 +1,6 @@
 # free-food-for-all project
 
-## proyecto
+## Proyecto
 
 Un reconocido restaurante ha decidido tener una jornada de donación de comida a los residentes de la región con la única condición de que el plato que obtendrán los comensales será aleatorio.
 
