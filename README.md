@@ -18,7 +18,6 @@ La informacion correspondiente a recetas, ingredientes en bodega e historiales d
 ```bash
 git clone https://github.com/nelsin-06/free-food-for-all
 cd free-food-for-all
-docker-compose build
 docker-compose up
 ```
 Despues de la ejecucion correcta del comando anterior se podra acceder a la web desde <a target="_blank" href="http://localhost:3000">http://localhost:3000</a>
