@@ -1,4 +1,4 @@
-# free-food-for-all project
+# FREE FOOD FOR ALL - PROJECT
 
 ## Proyecto
 
@@ -11,9 +11,9 @@ los ingredientes necesarios para preparar esta receta esten disponibles.
 
 Contamos con acceso a la plaza de mercado local donde podemos comprar los ingredientes necesarions para nuestras recetas.
 
-La informacion de correspondiente a recetas, ingredientes en bodega e historiales de compras y preparacion de productos estan almacenadas en una base de datos 'MongoDB'
+La informacion correspondiente a recetas, ingredientes en bodega e historiales de compras y preparacion de productos estan almacenadas en una base de datos 'MongoDB'
 
-## Instalacion con docker-compose (Recommended)
+## Instalacion con docker-compose
 
 ```bash
 git clone https://github.com/nelsin-06/free-food-for-all
@@ -23,6 +23,8 @@ docker-compose up
 ```
 Despues de la ejecucion correcta del comando anterior se podra acceder a la web desde <a target="_blank" href="http://localhost:3000">http://localhost:3000</a>
 
+Tambien podremos acceder directamente sin instalar o descargar nada desde la web: <a target="_blank" href="https://food-free-for-all.herokuapp.com/">Free-Food</a>
+
 ## Construido con🛠️
 - dotenv
 - express
@@ -31,3 +33,10 @@ Despues de la ejecucion correcta del comando anterior se podra acceder a la web 
 - express-handlebars
 - express-session
 - node-fetch
+- docker
+## Contruido por 👨‍💻👨‍🍳
+
+**Nelson Stiven Gallego Garcia**
+**nelsoncg0611@gmail.com**
+
+**https://www.linkedin.com/in/nelson-gallego-tec-dev**
